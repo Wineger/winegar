@@ -8,11 +8,6 @@ declare global {
   namespace JSX {
     interface IntrinsicElements extends ThreeElements {}
   }
-  namespace React {
-    namespace JSX {
-      interface IntrinsicElements extends ThreeElements {}
-    }
-  }
 }
 
 const COUNT = 12000;

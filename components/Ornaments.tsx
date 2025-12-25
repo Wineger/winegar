@@ -9,11 +9,6 @@ declare global {
   namespace JSX {
     interface IntrinsicElements extends ThreeElements {}
   }
-  namespace React {
-    namespace JSX {
-      interface IntrinsicElements extends ThreeElements {}
-    }
-  }
 }
 
 // 显著增加装饰品数量
